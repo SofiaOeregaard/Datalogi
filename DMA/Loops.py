@@ -8,9 +8,4 @@ for j = 2 to A.length
     
     A[i + 1] = key
 
-
-
-
-// Hov fejl i xxxxx
-
-io
+test s´
