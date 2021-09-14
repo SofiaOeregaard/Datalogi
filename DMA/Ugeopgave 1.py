@@ -10,6 +10,7 @@ while hi >= lo:
          hi = mid-1 else:
             return True
 return False
+
 ####################################################
 Del 1)
 ####################################################
@@ -110,6 +111,6 @@ Del 2) Forklar med jeres egne ord, hvad funktionen exists gør.
 - Funktionen exists tjekker om x er en del af arrayet 
 
 ######################################################################
-Del 2) Antag nu at tallene A[0], . . . , A[n − 1] ikke er sorterede.
+Del 3) Antag nu at tallene A[0], . . . , A[n − 1] ikke er sorterede.
 ######################################################################
 
