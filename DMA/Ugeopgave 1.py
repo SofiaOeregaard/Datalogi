@@ -29,9 +29,23 @@ while 7 ≥ 0
 
      if 6 > A[3]-> 10 - condition is false 
     else if 6 < 10:
-    7 = 2 - condition is false
+    hi = 2
+
+lo = 0 
+hi = 2
+while 2 ≥ 0 
+    mid = floor((2+0)/2) = 1
+    if 6 > A[1] - condition is true
+    lo = 2
+
+lo = 2
+hi = 2
+while 2 ≥ 2
+    mid = floor((2+2)/2) = 2
+    if 6 > A[2] - condition is false
+    else if 6 < A[2] - condition is false 
     
-    return true 
+    -> return true 
 
 ######################################
 (b) Hvad returnerer exists (A,8,13)
@@ -40,36 +54,28 @@ lo = 0
 hi = 7 
 while 7 ≥ 0
      mid = ((7+0)/2) = 3 
-     if 13 > 10:
+     if 13 > A[3]:
          lo = 4
-
-#tjekker: 7 ≥ 4 -> condition er stadig sand så while loop kører igen 
 
 lo = 4 
 hi = 7 
 while 7 ≥ 4
       mid = ((7+4)/2) = 5
-      if 13 > 16:
-          lo = 6
-#tjekker: 7 ≥¸6 -> condition er stadig sand så while loop kører igen 
+      if 13 > A[5] - condition is false 
+      else if 13 < A[5]
+          hi = 4
 
-lo = 6 
-hi = 7 
-while 7 ≥ 6 
-     mid = ((7+6)/2) = 6
-     if 13 > 17
-         lo = 7 
-#tjekker: 7 ≥ 7 -> condition er stadig sand så loop kører igen 
+lo = 4 
+hi = 4
+while 4 ≥ 4 
+     mid = ((4+4)/2) = 4
+     if 13 > A[4] - condition is true
+         lo = 5
 
-lo = 7 
-hi = 7 
-while 7 ≥ 7 
-     mid = ((7+7)/2) = 7 
-     if 13 > 43 - condition is false 
-     else if 13 < 43:
-        hi = 6 
-#tjekker: 6 ≥ 7 -> condition er false 
-return false 
+lo = 5
+hi = 4 
+while 4 ≥ 5 - condition is false -> return false 
+     
 
 
 ######################################
@@ -80,28 +86,32 @@ hi = 4
     while 4 ≥ 0 
         mid = ((4+0)/2) = 2 
         if 16 > 6:
-            lo = 3 
-#tjekker: 4 ≥ 3 -> condition er sand, while loop fortsætter 
+            lo = 3
 
 lo = 3
 hi = 4 
     while 4 ≥ 3 
         mid = ((4+3)/2) = 3 
-        if 16 > 10 
+        if 16 > A[3]
             lo = 4 
-#tjekker: 4 ≥ 4 -> condition er sand, while loop fortsætter
 
 lo = 4 
 hi = 4 
     while 4 ≥ 4 
         mid = ((4+4)/2) = 4
-        if 16 > 12
+        if 16 > A[4]
             lo = 5 
-#tjekker 4 ≥ 5 - condition er false 
-return false  
+lo = 5
+hi = 4
+while 4 ≥ 5 condition is false -> return false 
 
 #####################################
-(d) 
+
+(d) iteration 1 2 3
+           lo 4 4 5
+          mid 3 5 4
+           hi 7 4 4 
+
 #####################################
 
 #####################################################################
