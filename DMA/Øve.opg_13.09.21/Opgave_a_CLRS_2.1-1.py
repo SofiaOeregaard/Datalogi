@@ -1,4 +1,5 @@
 Øvelsesopgaver mandag 13/9-2021
+HÅNDKØRING OG EGENSKABER
 
 Opgave CLRS 2.1-1)
 for j = 2 to A.length
