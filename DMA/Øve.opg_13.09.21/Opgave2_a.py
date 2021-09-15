@@ -1,3 +1,4 @@
+
 Manglende tal. Lad A være et array af længde n − 1 således at indgangene i A er tal i mængden
 {0, 1, 2, . . . , n − 1}, hvor det oplyses at alle indgangene er forskellige. Derfor er der alts å et enkelt tal
 i mængden {0, 1, . . . , n − 1} som ikke optræder i A, og dette kalder vi det manglende tal.

@@ -6,7 +6,7 @@ Tilsvarende har A en 3-sum, hvis der findes indgange i, j og k, så A[i] + A[j] 
 (I disse definitioner kræves det ikke at i, j, k er forskellige tal)
 
 a) Giv eksempler på arrays af længde 5 som har og ikke har en 2-sum.
-b) Giv eksempler p ̊a arrays af længde 5 som har og ikke har en 3-sum.
+b) Giv eksempler på arrays af længde 5 som har og ikke har en 3-sum.
 c) Giv en algoritme, der afgør om A har en 2-sum i Θ(n2) tid.
 d) Giv en algoritme, der afgør om A har en 2-sum i Θ(n log n) tid. 
 e) Giv en algoritme, der afgør om A har en 3-sum i Θ(n3) tid.
