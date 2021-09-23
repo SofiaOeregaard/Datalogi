@@ -1,9 +1,9 @@
-
+"""
 Algorithm exists(A, n, x):
     lo = 0
 hi = n-1
 while hi >= lo:
-        mid = floor((hi+lo)/2)
+      mid = floor((hi+lo)/2)
         if x > A[mid]:
             lo = mid+1
         else if x < A[mid]:
@@ -11,16 +11,15 @@ while hi >= lo:
             return True
 return False
 
-####################################################
-Del 1)
+#Del 1)
 ####################################################
 
-Antag at A = [1,5,6,10,12,16,17,43]. 
-Dvs:
+#Antag at A = [1,5,6,10,12,16,17,43]. 
+#Dvs:
 A[0] = 1,A[1] = 5,...,A[7] = 43.
 
 #####################################
-(a) Hvad returnerer exists(A, 8, 6)?
+#(a) Hvad returnerer exists(A, 8, 6)?
 #####################################
 lo = 0 
 hi = 7 
@@ -124,3 +123,4 @@ Del 2) Forklar med jeres egne ord, hvad funktionen exists gør.
 Del 3) Antag nu at tallene A[0], . . . , A[n − 1] ikke er sorterede.
 ######################################################################
 
+"""
